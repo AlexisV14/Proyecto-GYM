@@ -1,10 +1,71 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    var nombre = "GYM";
+    ViewData["Title"] = "Home GYM";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">@nombre</h1>
+    <h2>SOMOS EL MEJOR GYM DE LA CIUDAD</h2>
+    <img src="~/img/gym1.jpg" alt="Foto gym" />
+</div>
+
+
+
+<div class="row justify-content-center text-center bg-danger">
+    <div class="col col-md-7 seccion-bienvenida">
+        <h1>TE DAMOS LA BIENVENIDA ALL MEJOR GYM</h1>
+        <pre>
+        ¿QUIÉNES SOMOS?
+    Somos un gimnasio que llegó a revolucionar 
+    la experiencia de entrenar en Colombia.
+        </pre>
+    </div>
+</div>
+
+<div class="text-center">
+    <center>
+        <table class="table-primary">
+            <caption>SERVICIOS</caption>
+            <tr class="table-primary">
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/img/zona-cardio.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ZONA CARDIO</h5>
+                            <p class="card-text">No esperes por una caminadora, contamos con 100 maquinas de cardio disponibles para ti.
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/img/sala-musculacio.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ZONA MUSCULACIÓN</h5>
+                            <p class="card-text">Encuentra 100 equipos de última tecnología listos para poder estallar toda tu fuerza.</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/img/vip.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ZONA VIP</h5>
+                            <p class="card-text">Espacios y equipos especializados en relajación física, equilibrio mental.</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/img/cinemacardio.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CINEMA CARDIO</h5>
+                            <p class="card-text">Es un espacio diferente a todos para disfrutar de una película mientras quemas calorías.</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>    
 </div>

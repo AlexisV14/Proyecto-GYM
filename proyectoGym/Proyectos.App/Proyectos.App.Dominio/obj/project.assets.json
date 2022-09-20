@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alexi\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\equipo-84-04\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Proyecto-GYM\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
       "projectName": "Proyectos.App.Dominio",
-      "projectPath": "C:\\equipo-84-04\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Alexi\\.nuget\\packages\\",
-      "outputPath": "C:\\equipo-84-04\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\obj\\",
+      "projectPath": "C:\\Proyecto-GYM\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyecto-GYM\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

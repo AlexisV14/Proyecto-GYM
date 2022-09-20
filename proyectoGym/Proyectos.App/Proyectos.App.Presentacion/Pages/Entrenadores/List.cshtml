@@ -1,0 +1,68 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Entrenadores.ListModel
+@{
+   //var searchString = Model.searchString; 
+   ViewData["Title"] = "Lista de Entrenadores";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><div class="text-info">Lista de Entrenadores</h2>
+            </div>
+            <div class="col-sm-6">
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
+                        Crear Entrenador
+                 </a>
+            </div>            
+        </div>    
+    </div>
+    <div class="card-body">
+        @if (Model.entrenadores.Count() > 0) { 
+            <br /><br />
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().id)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().identificacion)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().nombre)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().apellido)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().telefono)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().mail)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().edad)</th>
+                    <th>@Html.DisplayNameFor(m => m.entrenadores.First().rutid)</th>
+                    <th>ACCIONES</th>
+                </tr>
+                @foreach (var item in Model.entrenadores)  {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.id)</td>
+                    <td>@Html.DisplayFor(m => item.identificacion)</td>
+                    <td>@Html.DisplayFor(m => item.nombre)</td>
+                    <td>@Html.DisplayFor(m => item.apellido)</td>
+                    <td>@Html.DisplayFor(m => item.telefono)</td>
+                    <td>@Html.DisplayFor(m => item.mail)</td>
+                    <td>@Html.DisplayFor(m => item.edad)</td>
+                    <td>@Html.DisplayFor(m => item.rutid)</td>
+
+                    <td>
+                        <a class="btn btn-success btn-sm" asp-page="./Edit" asp-route-entrenadorId="@item.id">
+                            Editar
+                        </a>
+                    </td> 
+
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-entrenadorId="@item.id">
+                            Eliminar
+                        </a>
+                    </td> 
+                </tr>    
+            }
+            </table>
+        }else{
+            <p>No hay entrenadores disponibles</p>
+        }
+    </div>
+</div>
+
+
+
