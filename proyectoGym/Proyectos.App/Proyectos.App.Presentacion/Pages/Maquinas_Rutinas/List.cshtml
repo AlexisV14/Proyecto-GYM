@@ -1,0 +1,60 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Maquinas_Rutinas.ListModel
+@{
+   //var searchString = Model.searchString; 
+   ViewData["Title"] = "Lista de MaquinasRutinas";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><div class="text-info">Lista de MaquinasRutinas</h2>
+            </div>
+            <div class="col-sm-6">
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
+                        Crear Maquina Rutina
+                 </a>
+            </div>            
+        </div>    
+    </div>
+    <div class="card-body">
+        @if (Model.maquina_rutina.Count() > 0) { 
+            <br /><br />
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>@Html.DisplayNameFor(m => m.maquina_rutina.First(). maquirut_maqui_id)</th>
+                    <th>@Html.DisplayNameFor(m => m.maquina_rutina.First(). maquirut_rut_id)</th>
+                   
+                    
+                    <th>ACCIONES</th>
+                </tr>
+                @foreach (var item in Model.maquina_rutina)  {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.maquirut_maqui_id)</td>
+                    <td>@Html.DisplayFor(m => item.maquirut_rut_id)</td>
+    
+
+                    <td>
+                        <a class="btn btn-success btn-sm" asp-page="./Edit" asp-route-maquinarutinaId="@item.maquirut_maqui_id">
+                            Editar
+                        </a>
+                    </td> 
+
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-maquinarutinaId="@item.maquirut_maqui_id">
+                            Eliminar
+                        </a>
+                    </td> 
+                </tr>    
+            }
+            </table>
+        }else{
+            <p>No hay Maquinas disponibles</p>
+        }
+    </div>
+</div>
+
+
+
+

@@ -8,77 +8,173 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyectos.App.Presentacion
 build_property.RootNamespace = Proyectos.App.Presentacion
-build_property.ProjectDir = C:\Proyecto-GYM\proyectoGym\Proyectos.App\Proyectos.App.Presentacion\
+build_property.ProjectDir = C:\Proyecto-GYM-pablo\Proyecto-GYM-pablo\proyectoGym\Proyectos.App\Proyectos.App.Presentacion\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Proyecto-GYM\proyectoGym\Proyectos.App\Proyectos.App.Presentacion
+build_property.MSBuildProjectDirectory = C:\Proyecto-GYM-pablo\Proyecto-GYM-pablo\proyectoGym\Proyectos.App\Proyectos.App.Presentacion
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Contacto.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Contacto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Crear.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmVuYWRvcmVzXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Delete.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmVuYWRvcmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Edit.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmVuYWRvcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmVuYWRvcmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/List.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Entrenadores/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmVuYWRvcmVzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Error.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Index.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Planes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbmVzLmNzaHRtbA==
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Intensidades/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZW5zaWRhZGVzXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Privacy.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Intensidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZW5zaWRhZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Intensidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZW5zaWRhZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Intensidades/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZW5zaWRhZGVzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas_Rutinas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNfUnV0aW5hc1xDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas_Rutinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNfUnV0aW5hc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas_Rutinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNfUnV0aW5hc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Maquinas_Rutinas/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFxdWluYXNfUnV0aW5hc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Planes/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbmVzXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Planes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Planes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Planes/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbmVzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Rutinas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUnV0aW5hc1xDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Rutinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUnV0aW5hc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Rutinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUnV0aW5hc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Rutinas/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUnV0aW5hc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/Crear.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Tiempos/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbXBvc1xDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Tiempos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbXBvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Tiempos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbXBvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Tiempos/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbXBvc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/Delete.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/Edit.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/List.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Usuarios/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/_ViewImports.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/_ViewStart.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto-GYM/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Shared/_Layout.cshtml]
+[C:/Proyecto-GYM-pablo/Proyecto-GYM-pablo/proyectoGym/Proyectos.App/Proyectos.App.Presentacion/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c7ilwy41hl

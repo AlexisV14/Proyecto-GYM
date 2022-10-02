@@ -1,0 +1,57 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Maquinas_Rutinas.DeleteModel
+@{
+    ViewData["Title"] = "Eliminar maquina_rutina";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="text-info">Datos maquina_rutina</h2>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <div asp-validation-sumary="ModelOnly" class="text-danger">
+                <div class="container" style="padding: 30px">
+                    <!-- se envía campo de la PK oculto -->
+                    <input type="hidden"  asp-for="maquina_rutina.maquirut_maqui_id" />
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="maquina_rutina.maquirut_maqui_id"  class="text-primary"></label>
+                            </div>
+                            <div class="col-sm-1">
+                                <input asp-for="maquina_rutina.maquirut_maqui_id" class="form-control" value = "@Model.maquina_rutina.maquirut_maqui_id" disabled />
+                            </div>
+                            <span asp-validation-for="maquina_rutina.maquirut_maqui_id" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="maquina_rutina.maquirut_rut_id"  class="text-primary"></label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input asp-for="maquina_rutina.maquirut_rut_id" class="form-control" value = "@Model.maquina_rutina.maquirut_rut_id" disabled />
+                            </div>
+                            <span asp-validation-for="maquina_rutina.maquirut_rut_id" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2 offset-sm-2"> 
+                                <input type="submit" value="Eliminar" class="btn btn-danger form-control" />
+                            </div>
+                            <div class="col-sm-4">
+                                <a asp-page="List" class="btn btn-primary form-control">Volver a la Lista</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+

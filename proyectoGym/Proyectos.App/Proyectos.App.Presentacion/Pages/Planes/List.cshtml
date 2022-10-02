@@ -1,0 +1,61 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Planes.ListModel
+@{
+   //var searchString = Model.searchString; 
+   ViewData["Title"] = "Lista de Planes";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><div class="text-info">Lista de Planes</h2>
+            </div>
+            <div class="col-sm-6">
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
+                        Crear Plan
+                 </a>
+            </div>            
+        </div>    
+    </div>
+    <div class="card-body">
+        @if (Model.plan.Count() > 0) { 
+            <br /><br />
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>@Html.DisplayNameFor(m => m.plan.First().id)</th>
+                    <th>@Html.DisplayNameFor(m => m.plan.First().nombre)</th>
+                    <th>@Html.DisplayNameFor(m => m.plan.First().precio)</th>
+                    <th>@Html.DisplayNameFor(m => m.plan.First().plan_rut_id)</th>
+                    <th>@Html.DisplayNameFor(m => m.plan.First().tiempo)</th>
+                    <th>ACCIONES</th>
+                </tr>
+                @foreach (var item in Model.plan)  {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.id)</td>
+                    <td>@Html.DisplayFor(m => item.nombre)</td>
+                    <td>@Html.DisplayFor(m => item.precio)</td>
+                    <td>@Html.DisplayFor(m => item.plan_rut_id)</td>
+                    <td>@Html.DisplayFor(m => item.tiempo)</td>
+                    <td>
+                        <a class="btn btn-success btn-sm" asp-page="./Edit" asp-route-planId="@item.id">
+                            Editar
+                        </a>
+                    </td> 
+
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-planId="@item.id">
+                            Eliminar
+                        </a>
+                    </td> 
+                </tr>    
+            }
+            </table>
+        }else{
+            <p>No hay Planes disponibles</p>
+        }
+    </div>
+</div>
+
+
+

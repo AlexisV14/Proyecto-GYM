@@ -1,0 +1,61 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Rutinas.ListModel
+@{
+   //var searchString = Model.searchString; 
+   ViewData["Title"] = "Lista de Rutinas";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><div class="text-info">Lista de Rutinas</h2>
+            </div>
+            <div class="col-sm-6">
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
+                        Crear Rutina
+                 </a>
+            </div>            
+        </div>    
+    </div>
+    <div class="card-body">
+        @if (Model.rutina.Count() > 0) { 
+            <br /><br />
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>@Html.DisplayNameFor(m => m.rutina.First().id)</th>
+                    <th>@Html.DisplayNameFor(m => m.rutina.First().ejercicios)</th>
+                    <th>@Html.DisplayNameFor(m => m.rutina.First().observaciones)</th>
+                    <th>@Html.DisplayNameFor(m => m.rutina.First().intensidad)</th>
+                    
+                    <th>ACCIONES</th>
+                </tr>
+                @foreach (var item in Model.rutina)  {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.id)</td>
+                    <td>@Html.DisplayFor(m => item.ejercicios)</td>
+                    <td>@Html.DisplayFor(m => item.observaciones)</td>
+                    <td>@Html.DisplayFor(m => item.intensidad)</td>
+                    <td>
+                        <a class="btn btn-success btn-sm" asp-page="./Edit" asp-route-rutinaId="@item.id">
+                            Editar
+                        </a>
+                    </td> 
+
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-rutinaId="@item.id">
+                            Eliminar
+                        </a>
+                    </td> 
+                </tr>    
+            }
+            </table>
+        }else{
+            <p>No hay Maquinas disponibles</p>
+        }
+    </div>
+</div>
+
+
+
+

@@ -1,28 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 using Proyectos.App.Dominio.Modelos;
+using Proyectos.App.Persistencia.AppRepositorios;
+using Proyectos.App.Persistencia;
 
 namespace Proyectos.App.Presentacion.Pages.Entrenadores
 {
-    
     public class DeleteModel : PageModel
     {
-        [BindProperty]
-        public Entrenador entrenador { get; set; }
+       private readonly IRepositorios _appContext;
 
-        public void OnGet()
+        [BindProperty]
+        public Entrenador entrenador  { get; set; } 
+
+        public DeleteModel()
+        {            
+            this._appContext = new Repositorios(new Proyectos.App.Persistencia.AppContext());
+        }
+     
+
+        //se ejecuta al presionar Eliminar en la lista
+        public IActionResult OnGet(int? entrenadorId)
         {
-            entrenador = new Entrenador {
-               id = 3, 
-               identificacion = "7777777",
-               nombre = "CARGANDO NOMBRE DE PRUEBA",
-               apellido = "CARGANDO NOMBRE DE PRUEBA",
-               telefono = "12345",
-               mail = "jorozco",
-               edad = 18,
-               rutid = 1
-            };
+            if (entrenadorId.HasValue)
+            {
+                entrenador = _appContext.GetEntrenador(entrenadorId.Value);
+            }
+            if (entrenador == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            else
+                return Page();
+        }
+
+        //se ejecuta al presionar Eliminar en el formulario
+        public IActionResult OnPost()
+        {
+            if(entrenador.id > 0)
+            {     
+               _appContext.DeleteEntrenador(entrenador.id);           
+            }
+            return Redirect("List");
         }
     }
 }

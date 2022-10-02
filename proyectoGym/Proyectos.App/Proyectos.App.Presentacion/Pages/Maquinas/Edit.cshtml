@@ -1,0 +1,79 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Maquinas.EditModel
+@{
+    ViewData["Title"] = "Actualizar Maquina";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="text-info">Actualizando Datos de la maquina</h2>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <div asp-validation-sumary="ModelOnly" class="text-danger">
+                <div class="container" style="padding: 30px">
+                    <!-- se envía campo de la PK oculto -->
+                    <input type="hidden"  asp-for="maquina.id" />
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="maquina.id"  class="text-primary"></label>
+                            </div>
+                            <div class="col-sm-1">
+                                <input asp-for="maquina.id" class="form-control" value = "@Model.maquina.id" disabled />
+                            </div>
+                            <span asp-validation-for="maquina.id" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="maquina.tipo"  class="text-primary"></label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input asp-for="maquina.tipo" class="form-control" value = "@Model.maquina.tipo" disabled />
+                            </div>
+                            <span asp-validation-for="maquina.tipo" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="maquina.pesomin"  class=" text-primary"></label>
+                            </div>
+                            <div class="col-sm-6">
+                                <input asp-for="maquina.pesomin" class="form-control" value = "@Model.maquina.pesomin" disabled />
+                            </div>
+                            <span asp-validation-for="maquina.pesomin" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="maquina.pesomax"  class=" text-primary"></label>
+                            </div>
+                            <div class="col-sm-6">
+                                <input asp-for="maquina.pesomax" class="form-control" value = "@Model.maquina.pesomax" disabled />
+                            </div>
+                            <span asp-validation-for="maquina.pesomax" class="text-danger"></span>
+                        </div>
+                    </div>                    
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2 offset-sm-2"> 
+                                <input type="submit" value="Editar" class="btn btn-danger form-control" />
+                            </div>
+                            <div class="col-sm-4">
+                                <a asp-page="List" class="btn btn-primary form-control">Volver a la Lista</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+

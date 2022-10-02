@@ -1,0 +1,60 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Tiempos.ListModel
+@{
+   //var searchString = Model.searchString; 
+   ViewData["Title"] = "Lista de tiempos";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><div class="text-info">Lista de Tiempos</h2>
+            </div>
+            <div class="col-sm-6">
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
+                        Crear Tiempo
+                 </a>
+            </div>            
+        </div>    
+    </div>
+    <div class="card-body">
+        @if (Model.tiempo.Count() > 0) { 
+            <br /><br />
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>@Html.DisplayNameFor(m => m.tiempo.First(). id)</th>
+                    <th>@Html.DisplayNameFor(m => m.tiempo.First(). duracion)</th>
+                   
+                    
+                    <th>ACCIONES</th>
+                </tr>
+                @foreach (var item in Model.tiempo)  {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.id)</td>
+                    <td>@Html.DisplayFor(m => item.duracion)</td>
+    
+
+                    <td>
+                        <a class="btn btn-success btn-sm" asp-page="./Edit" asp-route-tiempoId="@item.id">
+                            Editar
+                        </a>
+                    </td> 
+
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-tiempoId="@item.id">
+                            Eliminar
+                        </a>
+                    </td> 
+                </tr>    
+            }
+            </table>
+        }else{
+            <p>No hay Maquinas disponibles</p>
+        }
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,79 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Rutinas.EditModel
+@{
+    ViewData["Title"] = "Actualizar Maquina";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="text-info">Actualizando Datos de la maquina</h2>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <div asp-validation-sumary="ModelOnly" class="text-danger">
+                <div class="container" style="padding: 30px">
+                    <!-- se envía campo de la PK oculto -->
+                    <input type="hidden"  asp-for="rutina.id" />
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="rutina.id"  class="text-primary"></label>
+                            </div>
+                            <div class="col-sm-1">
+                                <input asp-for="rutina.id" class="form-control" value = "@Model.rutina.id"  />
+                            </div>
+                            <span asp-validation-for="rutina.id" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="rutina.ejercicios"  class="text-primary"></label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input asp-for="rutina.ejercicios" class="form-control" value = "@Model.rutina.ejercicios"  />
+                            </div>
+                            <span asp-validation-for="rutina.ejercicios" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="rutina.observaciones"  class=" text-primary"></label>
+                            </div>
+                            <div class="col-sm-6">
+                                <input asp-for="rutina.observaciones" class="form-control" value = "@Model.rutina.observaciones"/>
+                            </div>
+                            <span asp-validation-for="rutina.observaciones" class="text-danger"></span>
+                        </div>
+                    </div
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2"> 
+                                <label asp-for="rutina.intensidad"  class=" text-primary"></label>
+                            </div>
+                            <div class="col-sm-6">
+                                <input asp-for="rutina.intensidad" class="form-control" value = "@Model.rutina.intensidad"  />
+                            </div>
+                            <span asp-validation-for="rutina.intensidad" class="text-danger"></span>
+                        </div>
+                    </div>            
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-2 offset-sm-2"> 
+                                <input type="submit" value="Editar" class="btn btn-danger form-control" />
+                            </div>
+                            <div class="col-sm-4">
+                                <a asp-page="List" class="btn btn-primary form-control">Volver a la Lista</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+

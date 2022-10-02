@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto-GYM\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Proyecto-GYM-pablo\\Proyecto-GYM-pablo\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
       "projectName": "Proyectos.App.Dominio",
-      "projectPath": "C:\\Proyecto-GYM\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
+      "projectPath": "C:\\Proyecto-GYM-pablo\\Proyecto-GYM-pablo\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\Proyectos.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto-GYM\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\obj\\",
+      "outputPath": "C:\\Proyecto-GYM-pablo\\Proyecto-GYM-pablo\\proyectoGym\\Proyectos.App\\Proyectos.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

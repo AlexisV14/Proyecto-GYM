@@ -1,0 +1,60 @@
+﻿@page
+@model Proyectos.App.Presentacion.Pages.Intensidades.ListModel
+@{
+   //var searchString = Model.searchString; 
+   ViewData["Title"] = "Lista de Intensidades";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><div class="text-info">Lista de Intesnidades</h2>
+            </div>
+            <div class="col-sm-6">
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
+                        Crear Intensidad
+                 </a>
+            </div>            
+        </div>    
+    </div>
+    <div class="card-body">
+        @if (Model.intensidad.Count() > 0) { 
+            <br /><br />
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>@Html.DisplayNameFor(m => m.intensidad.First().id)</th>
+                    <th>@Html.DisplayNameFor(m => m.intensidad.First().tipo)</th>
+                    <th>@Html.DisplayNameFor(m => m.intensidad.First().abreviatura)</th>
+                    
+                    <th>ACCIONES</th>
+                </tr>
+                @foreach (var item in Model.intensidad)  {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.id)</td>
+                    <td>@Html.DisplayFor(m => item.tipo)</td>
+                    <td>@Html.DisplayFor(m => item.abreviatura)</td>
+
+                    <td>
+                        <a class="btn btn-success btn-sm" asp-page="./Edit" asp-route-intensidadId="@item.id">
+                            Editar
+                        </a>
+                    </td> 
+
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-intensidadId="@item.id">
+                            Eliminar
+                        </a>
+                    </td> 
+                </tr>    
+            }
+            </table>
+        }else{
+            <p>No hay Maquinas disponibles</p>
+        }
+    </div>
+</div>
+
+
+
+
